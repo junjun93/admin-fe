@@ -1,0 +1,12 @@
+.DS_Store
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iws
+
+/node_modules/
+/dist/
+
+
