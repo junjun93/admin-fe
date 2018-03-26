@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.junjun.fun/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -36,7 +36,7 @@ var config = {
             util            : path.join(__dirname, '/src/util'),
             component       : path.join(__dirname, '/src/component'),
             service         : path.join(__dirname, '/src/service'),
-            page            : path.join(__dirname, '/src/page'),
+            page            : path.join(__dirname, '/src/page')
         }
     },
     module: {
